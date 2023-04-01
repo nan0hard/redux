@@ -1,6 +1,6 @@
 import { createReducer } from "@reduxjs/toolkit";
 
-import { inc, dec, inc50, dec50 } from "../actions/constants";
+import { inc, dec, inc50, dec50 } from "../constants/constants";
 
 const initialState = { value: 50 };
 
